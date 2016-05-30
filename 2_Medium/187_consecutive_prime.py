@@ -61,7 +61,7 @@ import sys
 			# else:
 				# print(0)
 
-PRIME = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]
+PRIME = set((2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31))
 def is_prime(n):
 	return True if n in PRIME else False
 
